@@ -2,6 +2,7 @@
 
 A sample [Google Custom Search](https://developers.google.com/custom-search/) Flutter demo.
 It uses [Custom Search JSON API](https://developers.google.com/custom-search/v1/overview) to get search result.
+It includes sample search result data in `res/sampledata/`.
 
 We use [expire_cache](https://pub.dartlang.org/packages/expire_cache) to make sure the same search request will not be fired multiple times(with TTL for the cache entry).
 
